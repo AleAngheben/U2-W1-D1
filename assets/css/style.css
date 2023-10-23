@@ -410,3 +410,150 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+/* DESKTOP MODE*/
+
+@media screen and (min-width: 1201px) {
+  header {
+    width: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    overflow: auto;
+  }
+
+  header div img {
+    width: 200px;
+    margin-bottom: 0;
+    float: left;
+    padding-left: 3rem;
+  }
+  header div {
+    display: inline;
+    vertical-align: middle;
+  }
+  header div p {
+    font-size: 13px;
+    display: inline;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+  header nav {
+    display: inline;
+    float: right;
+    margin-top: 2rem;
+  }
+  header nav ul,
+  li {
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 1rem;
+    display: inline;
+  }
+
+  main {
+    padding-top: 1em;
+    padding-inline: 0.7em;
+    font-size: 40px;
+    padding-bottom: 1em;
+  }
+
+  article h1 {
+    line-height: 1.2;
+  }
+
+  article p:first-of-type {
+    font-size: 17px;
+  }
+
+  #html-container img {
+    width: 60px;
+    border: solid 1px black;
+  }
+
+  article p {
+    font-size: 17px;
+  }
+  main article ul {
+    margin-left: 0;
+    list-style-type: disc;
+    display: block;
+  }
+  main article ul li {
+    list-style-type: disc;
+  }
+  article h2 {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  table {
+    width: 700px;
+    height: 120px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  table caption {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  iframe {
+    width: 49%;
+    display: inline-block;
+    height: 200px;
+    vertical-align: baseline;
+    margin: 0;
+    font-size: 0;
+  }
+  section {
+    border-radius: 20px;
+    width: 49%;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    margin-bottom: 5rem;
+  }
+  section h2 {
+    background-color: #a9a4a4;
+    font-size: 15px;
+  }
+
+  section p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  section form input {
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+  }
+  section form button {
+    height: 35px;
+    width: 90px;
+    align-items: baseline;
+    font-size: 10px;
+  }
+
+  aside {
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+  }
+  aside div {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+    box-sizing: content-box;
+    height: 100px;
+  }
+  aside h2 {
+    font-size: 25px;
+  }
+  aside div {
+    font-size: 13px;
+  }
+  footer {
+    font-size: 1.8rem;
+    padding-inline: 25rem;
+  }
+}
